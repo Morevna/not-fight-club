@@ -1,0 +1,10 @@
+// 
+@use "base/reset";
+@use "base/global";
+
+// 
+@use "blocks/01-registration" as registration01;
+@use "blocks/02-index-page" as indexPage02;
+@use "blocks/03-character" as character03;
+@use "blocks/04-settings" as settings04;
+@use "blocks/05-battle" as battle05;

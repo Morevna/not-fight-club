@@ -1,0 +1,48 @@
+html {
+  color: white;
+  overflow-x: hidden;
+  max-width: 100%;
+  scroll-behavior: smooth;
+}
+
+.container {
+    z-index: 1;
+    margin: 0 auto;
+    background: #08221ae2;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+
+////
+.header {
+  z-index: 10;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: rgb(49, 26, 26);
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav__link svg {
+  width: 24px;
+  height: 24px;
+}
