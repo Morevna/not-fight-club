@@ -110,6 +110,7 @@ img {
   padding: 20px;
 }
 .registration__title {
+  display: block;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -169,4 +170,70 @@ img {
 }
 .home__start-fight-btn:hover {
   background-color: #4a0b0b;
+}
+
+.settings__title {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.settings__input {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.settings__button {
+  width: 200px;
+  padding: 12px;
+  background-color: #0a2c0a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.settings__button:hover {
+  background-color: #0d370b;
+}
+
+.splash-screen-created {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgb(5, 127, 38) 23%, rgb(58, 71, 69) 49%, rgb(39, 26, 6));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+.splash-screen-created.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.splash-screen-new-battle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgb(5, 127, 38) 23%, rgb(58, 71, 69) 49%, rgb(39, 26, 6));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+.splash-screen-new-battle.hidden {
+  opacity: 0;
+  visibility: hidden;
 }/*# sourceMappingURL=style.css.map */
