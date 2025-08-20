@@ -17,7 +17,6 @@ function showSplashScreenCreated() {
 
     setTimeout(function() {
       splashCreated.classList.add('hidden'); 
-      window.location.href = 'index.html';
     }, 2000); 
     
   }
