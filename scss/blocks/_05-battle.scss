@@ -1,3 +1,80 @@
+.battle__main-container {
+    display: flex;
+    gap: 1.5vw;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px;
+    // flex-wrap: wrap; 
+}
+
+.battle__your-character,
+.battle__your-opponent {
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+.your-avatar__img,
+.your-opponent__img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+// .hp-bar {}
+.battle__controls {
+    flex: 1 1 35%;
+    min-width: 280px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .battle__instruction {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .zones {
+        display: flex;
+        gap: 50px;
+        font-size: 18px;
+
+        &__attack {}
+
+        &__defence {}
+    }
+
+    .attack-btn {
+        width: 120px;
+        padding: 8px;
+        background-color: #360303;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        margin: 0 auto;
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+
+        &:hover {
+            background-color: #4a0b0b;
+        }
+
+        &:disabled {
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+    }
+}
+
+
+
+
+
+
 .splash-screen-new-battle {
     position: fixed;
     top: 0;
@@ -11,7 +88,7 @@
     justify-content: center;
     align-items: center;
     z-index: 999;
-    opacity: 1;
+    opacity: 0.98;
     transition: opacity 1s ease-in-out;
 
     &.hidden {
