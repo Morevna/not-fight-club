@@ -37,7 +37,7 @@ attackBtn.addEventListener('click', startFight);
 function startFight () {
 
 }
-// 
+
 // ////
 // const your = {
 //   name: 'yourName',
